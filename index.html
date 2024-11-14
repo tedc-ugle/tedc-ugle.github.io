@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - Slide Transitions</title>
+
+		<link rel="stylesheet" href="./dist/reveal.css">
+		<link rel="stylesheet" href="./dist/theme/white.css" id="theme">
+		<style type="text/css" media="screen">
+			.slides section.has-dark-background,
+			.slides section.has-dark-background h3 {
+				color: #fff;
+			}
+			.slides section.has-light-background,
+			.slides section.has-light-background h3 {
+				color: #222;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section>
+					<img src="./Diapositiva4.JPG"/>
+				</section>
+
+				<section data-transition="zoom">
+					<img src="./Diapositiva5.JPG"/>
+				</section>
+
+				<section data-transition="zoom-in fade-out">
+					<img src="./Diapositiva6.JPG"/>
+				</section>
+
+				<section>
+					<img src="./Diapositiva7.JPG"/>
+				</section>
+
+				<section data-transition="convex">
+					<img src="./Diapositiva8.JPG"/>
+				</section>
+
+				<section data-transition="convex-in concave-out">
+					<img src="./Diapositiva9.JPG"/>
+				</section>
+
+				<section>
+					<section data-transition="zoom">
+						<img src="./Diapositiva10.JPG"/>
+					</section>
+					<section data-transition="concave">
+						<img src="./Diapositiva11.JPG"/>
+					</section>
+					<section data-transition="convex-in fade-out">
+						<img src="./Diapositiva12.JPG"/>
+					</section>
+					<section>
+						<img src="./Diapositiva13.JPG"/>
+					</section>
+				</section>
+
+				<section data-transition="none">
+					<img src="./Diapositiva14.JPG"/>
+				</section>
+
+				<section>
+					<h3>Default</h3>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="./dist/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				center: true,
+				history: true,
+
+				// transition: 'slide',
+				// transitionSpeed: 'slow',
+				// backgroundTransition: 'slide'
+			});
+		</script>
+
+	</body>
+</html>
